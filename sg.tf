@@ -5,7 +5,7 @@ resource "aws_security_group" "tf_learning_sg" {
   description = "Allow traffic"
   vpc_id      = "vpc-0c0c8c4a120bac340"
   tags = merge(
-    local.default_tags #,{Department = "IT"}
+    #local.default_tags #,{Department = "IT"}
     )
 #   lifecycle {
 #     ignore_changes = [tags] 
